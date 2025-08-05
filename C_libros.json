@@ -1,0 +1,17 @@
+[
+  { "_id": "l1", "nombre": "1984", "genero": "Distopía", "plataforma": "Kindle" },
+  { "_id": "l2", "nombre": "Cien años de soledad", "genero": "Realismo mágico", "plataforma": "Google Books" },
+  { "_id": "l3", "nombre": "El señor de los anillos", "genero": "Fantasía", "plataforma": "Audible" },
+  { "_id": "l4", "nombre": "Sapiens", "genero": "Historia", "plataforma": "Amazon Books" },
+  { "_id": "l5", "nombre": "Orgullo y prejuicio", "genero": "Romance", "plataforma": "Kindle" },
+  { "_id": "l6", "nombre": "La sombra del viento", "genero": "Misterio", "plataforma": "Google Books" },
+  { "_id": "l7", "nombre": "Harry Potter y la piedra filosofal", "genero": "Fantasía", "plataforma": "Kindle" },
+  { "_id": "l8", "nombre": "El código Da Vinci", "genero": "Thriller", "plataforma": "Amazon Books" },
+  { "_id": "l9", "nombre": "Crónica de una muerte anunciada", "genero": "Drama", "plataforma": "Google Books" },
+  { "_id": "l10", "nombre": "Don Quijote de la Mancha", "genero": "Clásico", "plataforma": "OpenLibra" },
+  { "_id": "l11", "nombre": "Los juegos del hambre", "genero": "Ciencia ficción", "plataforma": "Kindle" },
+  { "_id": "l12", "nombre": "Dune", "genero": "Ciencia ficción", "plataforma": "Amazon Books" },
+  { "_id": "l13", "nombre": "It", "genero": "Terror", "plataforma": "Audible" },
+  { "_id": "l14", "nombre": "El alquimista", "genero": "Ficción", "plataforma": "Google Books" },
+  { "_id": "l15", "nombre": "Rayuela", "genero": "Experimental", "plataforma": "Kindle" }
+]

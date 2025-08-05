@@ -1,0 +1,17 @@
+[
+  { "_id": "u1", "nombre": "Laura Gómez", "cedula": "1010101010", "correo": "laura.gomez@email.com" },
+  { "_id": "u2", "nombre": "Carlos Ruiz", "cedula": "2020202020", "correo": "carlos.ruiz@email.com" },
+  { "_id": "u3", "nombre": "Mariana Torres", "cedula": "3030303030", "correo": "mariana.torres@email.com" },
+  { "_id": "u4", "nombre": "Santiago Pérez", "cedula": "4040404040", "correo": "santiago.perez@email.com" },
+  { "_id": "u5", "nombre": "Andrea Romero", "cedula": "5050505050", "correo": "andrea.romero@email.com" },
+  { "_id": "u6", "nombre": "Luis Martínez", "cedula": "6060606060", "correo": "luis.martinez@email.com" },
+  { "_id": "u7", "nombre": "Valentina Castro", "cedula": "7070707070", "correo": "valentina.castro@email.com" },
+  { "_id": "u8", "nombre": "Mateo Fernández", "cedula": "8080808080", "correo": "mateo.fernandez@email.com" },
+  { "_id": "u9", "nombre": "Camila Vargas", "cedula": "9090909090", "correo": "camila.vargas@email.com" },
+  { "_id": "u10", "nombre": "Julián Herrera", "cedula": "1111222233", "correo": "julian.herrera@email.com" },
+  { "_id": "u11", "nombre": "Daniela López", "cedula": "2222333344", "correo": "daniela.lopez@email.com" },
+  { "_id": "u12", "nombre": "David Rodríguez", "cedula": "3333444455", "correo": "david.rodriguez@email.com" },
+  { "_id": "u13", "nombre": "Isabella Ortiz", "cedula": "4444555566", "correo": "isabella.ortiz@email.com" },
+  { "_id": "u14", "nombre": "Andrés Muñoz", "cedula": "5555666677", "correo": "andres.munoz@email.com" },
+  { "_id": "u15", "nombre": "Lucía Moreno", "cedula": "6666777788", "correo": "lucia.moreno@email.com" }
+]
