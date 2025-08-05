@@ -1,0 +1,17 @@
+[
+  { "_id": "p1", "nombre": "Inception", "genero": "Ciencia ficción", "plataforma": "Netflix" },
+  { "_id": "p2", "nombre": "El Padrino", "genero": "Crimen", "plataforma": "Paramount+" },
+  { "_id": "p3", "nombre": "Interstellar", "genero": "Ciencia ficción", "plataforma": "HBO Max" },
+  { "_id": "p4", "nombre": "Titanic", "genero": "Drama", "plataforma": "Star+" },
+  { "_id": "p5", "nombre": "Gladiador", "genero": "Acción", "plataforma": "Amazon Prime Video" },
+  { "_id": "p6", "nombre": "Coco", "genero": "Animación", "plataforma": "Disney+" },
+  { "_id": "p7", "nombre": "Parasite", "genero": "Thriller", "plataforma": "Hulu" },
+  { "_id": "p8", "nombre": "Avengers: Endgame", "genero": "Superhéroes", "plataforma": "Disney+" },
+  { "_id": "p9", "nombre": "El viaje de Chihiro", "genero": "Fantasía", "plataforma": "Netflix" },
+  { "_id": "p10", "nombre": "Joker", "genero": "Drama psicológico", "plataforma": "HBO Max" },
+  { "_id": "p11", "nombre": "Dunkerque", "genero": "Bélica", "plataforma": "Star+" },
+  { "_id": "p12", "nombre": "Soul", "genero": "Animación", "plataforma": "Disney+" },
+  { "_id": "p13", "nombre": "El origen", "genero": "Ciencia ficción", "plataforma": "Netflix" },
+  { "_id": "p14", "nombre": "Toy Story 4", "genero": "Animación", "plataforma": "Disney+" },
+  { "_id": "p15", "nombre": "Spider-Man: No Way Home", "genero": "Superhéroes", "plataforma": "HBO Max" }
+]

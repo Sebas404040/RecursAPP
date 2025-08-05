@@ -1,0 +1,17 @@
+[
+  { "_id": "s1", "nombre": "Breaking Bad", "genero": "Drama", "plataforma": "Netflix" },
+  { "_id": "s2", "nombre": "Stranger Things", "genero": "Ciencia ficción", "plataforma": "Netflix" },
+  { "_id": "s3", "nombre": "Game of Thrones", "genero": "Fantasía", "plataforma": "HBO Max" },
+  { "_id": "s4", "nombre": "The Mandalorian", "genero": "Ciencia ficción", "plataforma": "Disney+" },
+  { "_id": "s5", "nombre": "Friends", "genero": "Comedia", "plataforma": "HBO Max" },
+  { "_id": "s6", "nombre": "The Office", "genero": "Comedia", "plataforma": "Amazon Prime Video" },
+  { "_id": "s7", "nombre": "Loki", "genero": "Superhéroes", "plataforma": "Disney+" },
+  { "_id": "s8", "nombre": "Dark", "genero": "Thriller", "plataforma": "Netflix" },
+  { "_id": "s9", "nombre": "La Casa de Papel", "genero": "Acción", "plataforma": "Netflix" },
+  { "_id": "s10", "nombre": "Better Call Saul", "genero": "Drama", "plataforma": "Netflix" },
+  { "_id": "s11", "nombre": "Sherlock", "genero": "Misterio", "plataforma": "Amazon Prime Video" },
+  { "_id": "s12", "nombre": "Black Mirror", "genero": "Ciencia ficción", "plataforma": "Netflix" },
+  { "_id": "s13", "nombre": "WandaVision", "genero": "Superhéroes", "plataforma": "Disney+" },
+  { "_id": "s14", "nombre": "The Crown", "genero": "Histórica", "plataforma": "Netflix" },
+  { "_id": "s15", "nombre": "The Boys", "genero": "Superhéroes", "plataforma": "Amazon Prime Video" }
+]

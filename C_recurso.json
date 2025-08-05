@@ -1,0 +1,138 @@
+[
+  {
+    "usuario_id": "u1",
+    "formato": "libro",
+    "contenido_id": "l3",
+    "estado": "Finalizado",
+    "fecha_terminacion": "2025-07-10",
+    "resena_personal": "Una obra épica",
+    "valoracion": 10
+  },
+  {
+    "usuario_id": "u2",
+    "formato": "pelicula",
+    "contenido_id": "p5",
+    "estado": "En progreso",
+    "fecha_terminacion": null,
+    "resena_personal": "Combate impresionante",
+    "valoracion": 8
+  },
+  {
+    "usuario_id": "u2",
+    "formato": "serie",
+    "contenido_id": "s8",
+    "estado": "Pendiente",
+    "fecha_terminacion": null,
+    "resena_personal": "",
+    "valoracion": null
+  },
+  {
+    "usuario_id": "u4",
+    "formato": "pelicula",
+    "contenido_id": "p13",
+    "estado": "Finalizado",
+    "fecha_terminacion": "2025-08-01",
+    "resena_personal": "Mindblowing",
+    "valoracion": 10
+  },
+  {
+    "usuario_id": "u2",
+    "formato": "serie",
+    "contenido_id": "s2",
+    "estado": "En progreso",
+    "fecha_terminacion": null,
+    "resena_personal": "Me encanta la trama",
+    "valoracion": 9
+  },
+  {
+    "usuario_id": "u6",
+    "formato": "libro",
+    "contenido_id": "l1",
+    "estado": "Finalizado",
+    "fecha_terminacion": "2025-07-28",
+    "resena_personal": "Muy reflexivo",
+    "valoracion": 8
+  },
+  {
+    "usuario_id": "u6",
+    "formato": "serie",
+    "contenido_id": "s4",
+    "estado": "Pendiente",
+    "fecha_terminacion": null,
+    "resena_personal": "",
+    "valoracion": null
+  },
+  {
+    "usuario_id": "u8",
+    "formato": "libro",
+    "contenido_id": "l6",
+    "estado": "En progreso",
+    "fecha_terminacion": null,
+    "resena_personal": "Muy misterioso hasta ahora",
+    "valoracion": null
+  },
+  {
+    "usuario_id": "u11",
+    "formato": "pelicula",
+    "contenido_id": "p2",
+    "estado": "Finalizado",
+    "fecha_terminacion": "2025-07-25",
+    "resena_personal": "Un clásico inolvidable",
+    "valoracion": 10
+  },
+  {
+    "usuario_id": "u11",
+    "formato": "libro",
+    "contenido_id": "l14",
+    "estado": "Finalizado",
+    "fecha_terminacion": "2025-06-18",
+    "resena_personal": "Inspirador",
+    "valoracion": 9
+  },
+  {
+    "usuario_id": "u11",
+    "formato": "pelicula",
+    "contenido_id": "p6",
+    "estado": "Pendiente",
+    "fecha_terminacion": null,
+    "resena_personal": "",
+    "valoracion": null
+  },
+  {
+    "usuario_id": "u12",
+    "formato": "serie",
+    "contenido_id": "s10",
+    "estado": "Finalizado",
+    "fecha_terminacion": "2025-05-15",
+    "resena_personal": "Precuela excelente",
+    "valoracion": 9
+  },
+  {
+    "usuario_id": "u13",
+    "formato": "libro",
+    "contenido_id": "l8",
+    "estado": "En progreso",
+    "fecha_terminacion": null,
+    "resena_personal": "Intrigante hasta el momento",
+    "valoracion": null
+  },
+  {
+    "usuario_id": "u4",
+    "formato": "serie",
+    "contenido_id": "s5",
+    "estado": "Finalizado",
+    "fecha_terminacion": "2025-07-03",
+    "resena_personal": "Un clásico de la comedia",
+    "valoracion": 10
+  },
+  {
+    "usuario_id": "u15",
+    "formato": "pelicula",
+    "contenido_id": "p15",
+    "estado": "Finalizado",
+    "fecha_terminacion": "2025-07-20",
+    "resena_personal": "Gran cierre de trilogía",
+    "valoracion": 9
+  }
+]
+
