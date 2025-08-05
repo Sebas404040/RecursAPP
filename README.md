@@ -4,9 +4,9 @@ Se requiere el diseño de una base de datos en MongoDB que sirva como soporte pa
 
 El objetivo principal de este proyecto es modelar adecuadamente las colecciones y documentos necesarios para almacenar y gestionar la información que los usuarios registrarían al usar la aplicación. Esto incluye la estructura de los datos, sus relaciones y los campos esenciales para garantizar un almacenamiento eficiente, escalable y coherente con las funcionalidades previstas.
 
-## Modelo conceptual propuesto:
+## 🏗️ Modelo conceptual propuesto:
 
-![Modelo conceptual](./Readme_images/Modelo_conceptual.png)
+![Modelo conceptual](./Readme_images/Conceptual_model.png)
 
 ### 🧩 Estructura del Modelo de Base de Datos
 Para este modelo se han definido cinco colecciones principales que conformarán la base de datos en MongoDB. Estas colecciones han sido diseñadas para representar de manera eficiente los distintos elementos y relaciones del sistema:
@@ -49,11 +49,11 @@ Esta colección actúa como un registro de seguimiento que vincula a los usuario
 
 Este modelo está orientado a establecer una base sólida para la construcción de la base de datos, permitiendo un almacenamiento organizado, coherente y fácilmente escalable para futuras funcionalidades de la aplicación.
 
-## Inserción de datos:
+## 🗄️ Inserción de datos:
 
 Ya teniendo el modelado preparado se insertan los datos que llenaran las claves en cada documento:
 
-### Ejemplo de inserciones en la colección de libros
+### ✔️ Ejemplo de inserciones en la colección de libros
 
 ```json
 [
@@ -66,7 +66,7 @@ Ya teniendo el modelado preparado se insertan los datos que llenaran las claves 
 ```
 <hr>
 
-### Ejemplo de inserciones en la colección de peliculas
+### ✔️ Ejemplo de inserciones en la colección de peliculas
 
 ```json
 [
@@ -79,7 +79,7 @@ Ya teniendo el modelado preparado se insertan los datos que llenaran las claves 
 ```
 <hr>
 
-### Ejemplo de inserciones en la colección de series
+### ✔️ Ejemplo de inserciones en la colección de series
 
 ```json
 [
@@ -93,7 +93,7 @@ Ya teniendo el modelado preparado se insertan los datos que llenaran las claves 
 
 <hr>
 
-### Ejemplo de inserciones en la colección de usuarios
+### ✔️ Ejemplo de inserciones en la colección de usuarios
 
 ```json
 [
@@ -107,7 +107,7 @@ Ya teniendo el modelado preparado se insertan los datos que llenaran las claves 
 
 <hr>
 
-### Ejemplo de inserciones en la colección de Recurso
+### ✔️ Ejemplo de inserciones en la colección de Recurso
 
 ```json
 [
@@ -158,3 +158,38 @@ Ya teniendo el modelado preparado se insertan los datos que llenaran las claves 
   }
 ]
 ```
+
+## Consultas básicas
+
+Algunas consultas básicas para probar los datos introducidos anteriormente:
+
+### 📌 1. Recursos finalizados por el usuario con ID "u2"
+Esta consulta devuelve todos los contenidos que el usuario identificado como "u2" ha finalizado, sin importar su formato (libro, serie o película).
+
+```json
+db.recursos.find({
+  usuario_id: "u2",
+  estado: "Finalizado"
+})
+
+```
+
+### 📌 2. Películas con calificación igual o superior a 9
+Esta consulta muestra todos los recursos cuyo formato es "pelicula" y que han recibido una valoración destacada (9 o 10).
+
+```json
+db.recursos.find({
+  formato: "pelicula",
+  valoracion: { $gte: 9 }
+})
+
+// El operador $gte en MongoDB significa "greater than or equal", es decir, "mayor o igual que".
+//Se utiliza para hacer comparaciones numéricas, de fechas, o incluso de cadenas alfabéticas, dependiendo del contexto.
+
+```
+
+## ✅ Conclusión 
+
+El modelado de esta base de datos en MongoDB permite estructurar de manera eficiente la información relacionada con el seguimiento de recursos de entretenimiento —libros, películas y series— por parte de los usuarios. Mediante el uso de colecciones bien definidas y relaciones claras entre documentos, se facilita el registro del progreso, valoraciones y reseñas de cada contenido consumido.
+
+Además, las consultas implementadas demuestran la versatilidad de MongoDB para filtrar, agrupar y analizar datos relevantes, lo cual respalda la funcionalidad esencial de la aplicación. Esta base de datos está preparada para escalar, integrarse con una interfaz web y brindar una experiencia personalizada a cada usuario según sus preferencias y hábitos de consumo.
