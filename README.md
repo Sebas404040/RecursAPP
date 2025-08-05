@@ -166,10 +166,10 @@ Algunas consultas básicas para probar los datos introducidos anteriormente:
 ### 📌 1. Recursos finalizados por el usuario con ID "u2"
 Esta consulta devuelve todos los contenidos que el usuario identificado como "u2" ha finalizado, sin importar su formato (libro, serie o película).
 
-```json
+```jsx
 db.recursos.find({
-  usuario_id: "u2",
-  estado: "Finalizado"
+  formato: "pelicula",
+  valoracion: { $gte: 9 }
 })
 
 ```
@@ -177,7 +177,7 @@ db.recursos.find({
 ### 📌 2. Películas con calificación igual o superior a 9
 Esta consulta muestra todos los recursos cuyo formato es "pelicula" y que han recibido una valoración destacada (9 o 10).
 
-```json
+```jsx
 db.recursos.find({
   formato: "pelicula",
   valoracion: { $gte: 9 }
@@ -185,7 +185,6 @@ db.recursos.find({
 
 // El operador $gte en MongoDB significa "greater than or equal", es decir, "mayor o igual que".
 //Se utiliza para hacer comparaciones numéricas, de fechas, o incluso de cadenas alfabéticas, dependiendo del contexto.
-
 ```
 
 ## ✅ Conclusión 
